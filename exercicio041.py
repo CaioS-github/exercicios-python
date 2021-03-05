@@ -1,6 +1,8 @@
 print('-=-CONFEDERAÇÃO NACIONAL-=-')
-ano = int(input('Qual o ano que você nasceu? '.strip()))
-idade = 2021 - ano
+from datetime import date
+atual = date.today().year
+nascimento = int(input('Qual o ano que você nasceu? '.strip()))
+idade = atual - nascimento
 if idade <= 9:
     print('Você está na categoria MIRIM.')
 elif idade > 9 and idade <= 14:
