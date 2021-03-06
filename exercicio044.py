@@ -19,4 +19,4 @@ elif opcao == 4:
     parcelas = int(input('Quantas parcelas? ').strip())
     pg4 = preco + (preco * 0.20)
     print('Ficará por R${} de {} vezes somado a 20% de juros.'.format(pg4, parcelas))
-print('Sua compra de {} vai custar {} no final.'.format(preco, pg4))
+print('Volte sempre!')
